@@ -8,8 +8,8 @@ export default function Routess() {
         <BrowserRouter>
             <main>
                 <Routes>
-                    <Route path="/" exact={true}  element={<Entrada/>}/>
-                    <Route path="/homepage"  element={<Homepage/>}/>
+                    <Route path='/' element={<Entrada/>}/>
+                    <Route path='/homepage'  element={<Homepage/>}/>
                 </Routes>
             </main>
         </BrowserRouter>
