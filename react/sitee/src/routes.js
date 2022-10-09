@@ -6,10 +6,13 @@ import Entrada from './pages/entrda/entrada.index';
 export default function Routess() {
     return (
         <BrowserRouter>
-            <Routes>
-                <Route path="/"  element={<Entrada/>}/>
-                <Route path="/homepage"  element={<Homepage/>}/>
-            </Routes>
+            <main>
+                <Routes>
+                    <Route path="/" exact={true}  element={<Entrada/>}/>
+                    <Route path="/homepage"  element={<Homepage/>}/>
+                </Routes>
+            </main>
         </BrowserRouter>
     )
 }
+
